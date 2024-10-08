@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+## Introduction
+The API Chaining Web App is designed to demonstrate the concept of API chaining through a simple interface. Users can select a user from a list, create a post for that user, and fetch comments associated with the post. This project showcases how to handle multiple API calls sequentially based on previous responses.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup Instructions
 
-## Available Scripts
+To run the application locally, follow these steps:
 
-In the project directory, you can run:
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
+The API Chaining Web App is designed to demonstrate the concept of API chaining through a simple interface. Users can select a user from a list, create a post for that user, and fetch comments associated with the post. This project showcases how to handle multiple API calls sequentially based on previous responses.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup Instructions
 
-### `npm test`
+To run the application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-name>
 
-### `npm run build`
+2. **Install dependencies:**
+    npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the application:**
+    npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Open your browser and navigate to:**
+    http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+5. **Technical Stack:**
+    - React.js
+    - Tailwind CSS for styling
+    - Git for version control
+    - REST API integration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. **Brief Explanation of Your Approach:**
+    The web app consists of several components that work together to provide a seamless user experience:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    **UserList Component**: Displays a list of users fetched from the API, allowing users to select one.
+    **PostForm Component**: Allows users to create a post for the selected user.
+    **CommentList Component**: Displays comments associated with the created post.
+    **Loader Component**: Provides feedback to users during loading states.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    The application demonstrates API chaining by making requests to different endpoints based on user interactions. When a post is created, the app fetches comments for that post, showcasing how one API call's response can dictate the next call.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+7. **Features**:
+    User Selection: Users can view and select from a list of available users.
+    Post Creation: Users can create posts with a title and body for the selected user.
+    Comment Fetching: Users can fetch and view comments related to the created post.

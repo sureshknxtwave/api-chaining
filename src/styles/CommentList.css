@@ -1,0 +1,32 @@
+.comment-list {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-title {
+    color: #ff4081;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .comment-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-item {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #e0e0e0;
+  }
+  
+  .comment-item:hover {
+    background-color: #444;
+  }
+  
