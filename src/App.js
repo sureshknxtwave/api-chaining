@@ -4,7 +4,8 @@ import UserList from './components/UserList';
 import PostForm from './components/PostForm';
 import CommentList from './components/CommentList';
 import Loader from './components/Loader';
-import './App.css'; // Import the CSS file for styles
+import './App.css';
+import Navbar from './components/Navbar.js'
 
 function App() {
   const [users, setUsers] = useState([]);
