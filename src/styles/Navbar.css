@@ -1,0 +1,26 @@
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4081;
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-title h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .navbar-title h1 {
+    font-size: 24px;
+  }
+}
