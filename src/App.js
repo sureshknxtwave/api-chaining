@@ -57,8 +57,10 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <div>
     <Navbar/>
+    <div className="app-container">
+    
       <div className="component-wrapper">
         <UserList users={users} onSelectUser={setSelectedUser} />
       </div>
@@ -89,6 +91,7 @@ function App() {
         </div>
       )}
     </div>
+      </div>
   );
 }
 
