@@ -58,6 +58,7 @@ function App() {
 
   return (
     <div className="app-container">
+    <Navbar/>
       <div className="component-wrapper">
         <UserList users={users} onSelectUser={setSelectedUser} />
       </div>
